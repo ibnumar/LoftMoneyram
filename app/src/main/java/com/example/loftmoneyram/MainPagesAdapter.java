@@ -51,7 +51,6 @@ public class MainPagesAdapter extends FragmentPagerAdapter {
             case PAGE_EXPENSES:
                 return context.getString(R.string.main_tab_expenses);
             case PAGE_BALANCE:
-                return context.getString(R.string.main_tab_balance);
             default:
                 return context.getString(R.string.main_tab_balance);
         }
